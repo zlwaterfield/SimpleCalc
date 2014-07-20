@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50532048197C67D700DA78C2 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 50532047197C67D700DA78C2 /* dot.png */; };
 		7764ADDA196CA48800C865CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ADD9196CA48800C865CF /* Foundation.framework */; };
 		7764ADDC196CA48800C865CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ADDB196CA48800C865CF /* CoreGraphics.framework */; };
 		7764ADDE196CA48800C865CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7764ADDD196CA48800C865CF /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50532047197C67D700DA78C2 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
 		7764ADD6196CA48800C865CF /* Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7764ADD9196CA48800C865CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7764ADDB196CA48800C865CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,7 @@
 		7764ADDF196CA48800C865CF /* Calc */ = {
 			isa = PBXGroup;
 			children = (
+				50532047197C67D700DA78C2 /* dot.png */,
 				7764ADE8196CA48800C865CF /* AppDelegate.h */,
 				7764ADE9196CA48800C865CF /* AppDelegate.m */,
 				7764ADEB196CA48800C865CF /* Main.storyboard */,
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7764ADF2196CA48800C865CF /* Images.xcassets in Resources */,
+				50532048197C67D700DA78C2 /* dot.png in Resources */,
 				7764ADE4196CA48800C865CF /* InfoPlist.strings in Resources */,
 				7764ADED196CA48800C865CF /* Main.storyboard in Resources */,
 			);
@@ -455,6 +459,7 @@
 				7764AE0A196CA48800C865CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7764AE0B196CA48800C865CF /* Build configuration list for PBXNativeTarget "CalcTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +468,7 @@
 				7764AE0D196CA48800C865CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
